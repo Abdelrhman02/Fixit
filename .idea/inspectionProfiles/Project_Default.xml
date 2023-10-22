@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="requestnum" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpCSFixerValidationInspection" enabled="false" level="TYPO" enabled_by_default="true">
+      <scope name="Tests" level="TYPO" enabled="true">
+        <option name="ALLOW_RISKY_RULES" value="true" />
+      </scope>
+    </inspection_tool>
+  </profile>
+</component>

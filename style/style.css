@@ -1,0 +1,91 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1.5em;
+}
+
+li.home {
+    font-size: 2em;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main {
+    /* display: none; */
+}
+
+.lead {
+    text-align: center;
+}
+
+.requestForm .myInputGroup input {
+    margin: 10px 0;
+}
+
+.mg-10 {
+    margin: 10px 0;
+}
+
+.requestsContainer {
+    height: 100vh;
+}
+
+.requests {
+    /* display: none; */
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+}
+
+.requestsContainer h2 {
+    text-align: center;
+}
+
+.form-check-input {
+    /* float: right !important; */
+}
+
+.arabicLog {
+    width: 30%;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #11578c;
+    border-color: beige;
+}
+
+.logo-img{
+    width: 150px;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .sign-out{
+        position:fixed;
+        top:0;
+        left:1em;
+    }
+}

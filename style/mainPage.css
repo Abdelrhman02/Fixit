@@ -1,0 +1,30 @@
+.main-page-img{
+    width: 150px;
+}
+h1,h2 {
+    text-align: center;
+    font-family: system-ui;
+    color: #232e6a;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+}
+.block{
+    transition: opacity 500ms  ease-in;
+    opacity: 1;
+    cursor: pointer;
+}
+.block > p{
+    font-size: 18px;
+    color: grey;
+    font-weight: bolder;
+    text-align: center;
+
+
+}
+.block:hover{
+    opacity: 0.6;
+}

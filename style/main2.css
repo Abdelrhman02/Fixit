@@ -1,0 +1,141 @@
+
+body {
+    background: /* top, transparent black, faked with gradient */ linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+    ),
+        /* bottom, image */ url("../images/university.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    font-family: system-ui;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+}
+.section_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transition: all 200ms;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+.main-page-img{
+    width: 150px;
+}
+h1,h2 {
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+}
+.block{
+    transition: opacity 500ms  ease-in;
+    opacity: 1;
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+.block-container{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-column-gap: 70px;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+.block > img{
+    transition: opacity 150ms ease-in-out;
+}
+.block > img:hover{
+    opacity: 0.7;
+}
+.block > p{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo-h1{
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+.block-container > div{
+    flex: 1;
+}
